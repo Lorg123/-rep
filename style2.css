@@ -14,8 +14,6 @@ a {
     text-decoration: none;
 }
 
-
-
 header {
     background-color: #2D0571; 
     width: 100%; 
@@ -28,9 +26,6 @@ header {
 
 }
 
-header a {
-    color:white;
-}
 .uphead {
     display: flex;
     flex-direction: row;
@@ -56,9 +51,6 @@ nav {
 }
 
 
-
-
-
 .pos {
     width: 100px;
     height: 50px;
@@ -76,72 +68,14 @@ nav {
     margin-bottom: 2%;
 }
 
-.main {
-    background-color: var(--main-color);
-    width: 100%;
-
-}
 
 .pokupka {
     margin-left: 10%;
-    
 }
 
 .nazv{
     font-size: 40px;
-    margin-left: 950px;
 }
-
-ul {
-    list-style: none;
-}
-
-.card {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    width: 232px;
-
-
-
-}
-
-.card > button {
-    border: 0px;
-    background-color: var(--secondary-color);
-    font-size: 20px;
-    border-radius: 20px;
-}
-
-.card > p {
-    font-size: 25px;
-}
-.new {
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2%;
-}
-
-
-
-
-
-.stocks {
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2%;
-}
-
-.saleshits {
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2%;
-}
-
 .niz {
     width:100%;
     height: 250px;
