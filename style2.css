@@ -8,6 +8,7 @@
 * {
     padding: 0px;
     margin: 0%;
+    border: 0px;
 }
 
 a {
@@ -70,12 +71,19 @@ nav {
 
 
 .pokupka {
-    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
-.nazv{
+.czena{
     font-size: 40px;
 }
+.xarakter {
+    margin-top: 2%;
+}
+
 .niz {
     width:100%;
     height: 250px;
