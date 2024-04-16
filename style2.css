@@ -14,7 +14,9 @@
 a {
     text-decoration: none;
 }
-
+body {
+    width: 100%;
+}
 header {
     background-color: #2D0571; 
     width: 100%; 
