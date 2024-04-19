@@ -14,6 +14,9 @@
 a {
     text-decoration: none;
 }
+header a {
+    color:white;
+}
 body {
     width: 100%;
 }
@@ -97,8 +100,15 @@ nav {
     display: flex;  
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 40px;
+    font-size: 20px;
 }
 
 .urinfo  a {
     color: black;
 }
+
+.urinfo li {
+    padding-bottom: 10px;
+}
+
