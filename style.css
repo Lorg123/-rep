@@ -101,7 +101,9 @@ ul {
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    width: 232px;
+    max-width: 232px;
+    max-height: 500px;
+    
 
 
 
@@ -125,7 +127,9 @@ ul {
 }
 
 
-
+.name {
+    font-size: 30px;
+}
 
 
 .stocks {
