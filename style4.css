@@ -14,6 +14,9 @@ a {
     text-decoration: none;
 }
 
+html, body, main{
+    height: 100%;
+}
 
 
 header {
@@ -127,7 +130,7 @@ ul {
 
 .tovar img {
   position: absolute;
-  left: 30px;
+  left: 10px;
 }
 .tovar p {
     position: absolute;
@@ -136,7 +139,19 @@ ul {
     
 }
 
-
+.pokypki {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 250px;
+    padding-top: 3%;
+    margin: 0 auto;
+}
+.pokypki button {
+    width: 150px;
+    height: 30px;
+    
+}
 
 .niz {
     width:100%;
