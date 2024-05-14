@@ -27,7 +27,7 @@ header {
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-    
+    padding-top: 15px;
     font-size: 36px;
 
 }

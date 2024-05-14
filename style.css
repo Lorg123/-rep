@@ -23,7 +23,7 @@ header {
     display: flex;
     flex-direction:column;
     justify-content: space-between;
-    
+    padding-top: 15px;
     font-size: 36px;
 
 }
@@ -111,17 +111,35 @@ ul {
     font-size: 20px;
     border-radius: 20px;
 }
-
 .card > p {
     font-size: 25px;
 }
-.new {
-    display: flex;  
-    flex-direction: row;
-    justify-content: space-evenly;
-    margin-top: 2%;
+
+.da {
+    display: grid;
+    grid-template-areas: "new new new new ",
+                         "stocks stocks stocks",
+                         "saleshits saleshits saleshits ";
 }
 
+.da ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: end;
+    padding-left: 50px;
+}
+
+.da h1 {
+    align-self: normal;
+}
+
+.new {
+    display: flex;  
+    grid-area: "new";
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 2%; 
+}
 
 .name {
     font-size: 30px;
@@ -130,6 +148,7 @@ ul {
 
 .stocks {
     display: flex;  
+    grid-area: "stocks";
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 2%;
@@ -137,6 +156,7 @@ ul {
 
 .saleshits {
     display: flex;  
+    grid-area: "saleshits";
     flex-direction: row;
     justify-content: space-evenly;
     margin-top: 2%;
@@ -147,6 +167,7 @@ ul {
     height: 250px;
     background-color: var(--accent-color);
     margin-top: 100px;
+    
 }
 
 .urinfo {
@@ -163,4 +184,11 @@ ul {
 
 .urinfo li {
     padding-bottom: 10px;
+}
+
+.ur1 {
+    padding-left: 15px;
+}
+.ur4 {
+    padding-right: 15px;
 }
