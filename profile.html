@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>SboroChnick</title>
-        <link rel="stylesheet" href="style2.css">
-    </head>
-<body>
 
-        <header>
-            <div class="uphead">
-                <div class="logotype">
-                    <a href="index.html"><img src="/img/logo.svg" width="344" height="51" alt="SboroChnick"></a>
-                </div>
-                <nav>
-                    <ul><a href="korzina.html">корзина</a></ul>
-                    <ul><a href="profile.html">профиль</a></ul>
-                    <ul><a href="katalog.html">каталог</a></ul>
-                </nav>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SboroChnick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="uphead">
+            <div class="logotype">
+                <a href="index.html"><img src="/img/logo.svg" width="344" height="51" alt="SboroChnick"></a>
             </div>
+            <nav>
+                <ul><a href="korzina.html">корзина</a></ul>
+                <ul><a href="№">профиль</a></ul>
+                <ul><a href="katalog.html">каталог</a></ul>
+            </nav>
+        </div>
 
         <div class="downhead">
             <div class="search">
@@ -30,20 +31,46 @@
         </div>
     </header>
 
+
     <main>
-        <div class="pokupka">
-            <img class="img" src="/img/планшет хуавей.svg" width="20000px"> 
-            <div>
-                <h1 class="nazv"></h1>
-                <button><img src="/img/купить.svg" alt=""></button> <button><img src="/img/в корзину.svg" alt=""></button>
-                <button><img src="/img/добавить в сравнение.svg" alt=""></button>
-                <h2 class="czena"></h2>
-                <h2 class="xarakter">Основные характеристики</h2>
-                    <p></p>
-            </div>
+        <div class="cardprofile">
+        <div class="ava">
+        <img src="/img/ава.jpg" alt="">
         </div>
-        
+        <ul class="ava2">
+            <li>
+                <h2>Имя:</h2> <input type="text" >
+            </li>
+            <li>
+                <h2>Фамилия:</h2> <input type="text">
+            </li>
+            <li><h2>Номер телефона:</h2> <input type="text"></li>
+        </ul>
+        <div class="pr">
+        <h1>Номер заказа:</h1>
+        <a href="katalog.html"><button>203975</button></a>
+        </div>
+
+        <div class="karta">
+            <h3>Привязанная карта</h3>
+            <ul>
+                <li>
+                    <h3>Номер карты</h3> <input type="text">
+                </li>
+                <li>
+                    <h3>CVV</h3> <input type="password">
+                </li>
+                <li>
+                    <h3>Имя владельца</h3> <input type="text">
+                </li>
+            </ul>
+        </div>
+    </div>
     </main>
+
+
+
+
 
 
     <footer>
@@ -84,10 +111,6 @@
             
         </div>
     </footer>
-
-
-
-
-
 </body>
+
 </html>
